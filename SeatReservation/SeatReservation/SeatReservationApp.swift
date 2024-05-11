@@ -2,7 +2,7 @@
 //  SeatReservationApp.swift
 //  SeatReservation
 //
-//  Created by l on 2024/5/11.
+//  Created by student on 10/5/2024.
 //
 
 import SwiftUI
@@ -12,7 +12,7 @@ import SwiftData
 struct SeatReservationApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            SeatReservationDB.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +25,7 @@ struct SeatReservationApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           ContentView()
         }
         .modelContainer(sharedModelContainer)
     }

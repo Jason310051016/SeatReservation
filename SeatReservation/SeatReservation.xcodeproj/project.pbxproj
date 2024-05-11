@@ -27,6 +27,9 @@
 		0BD136D12BEFACF3005E2746 /* SeatReservationDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD136D02BEFACF3005E2746 /* SeatReservationDB.swift */; };
 		0BD136D22BEFACF3005E2746 /* SeatReservationDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD136D02BEFACF3005E2746 /* SeatReservationDB.swift */; };
 		0BD136D32BEFACF3005E2746 /* SeatReservationDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD136D02BEFACF3005E2746 /* SeatReservationDB.swift */; };
+		FB6D43582BEFB5D300504281 /* ListBookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D43572BEFB5D200504281 /* ListBookingView.swift */; };
+		FB6D435A2BEFB5E400504281 /* RestaurantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D43592BEFB5E400504281 /* RestaurantData.swift */; };
+		FB6D435C2BEFB60700504281 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D435B2BEFB60700504281 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,9 @@
 		0BD136C82BEFACA4005E2746 /* ReservationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
 		0BD136CC2BEFACE1005E2746 /* PersonalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalView.swift; sourceTree = "<group>"; };
 		0BD136D02BEFACF3005E2746 /* SeatReservationDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeatReservationDB.swift; sourceTree = "<group>"; };
+		FB6D43572BEFB5D200504281 /* ListBookingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBookingView.swift; sourceTree = "<group>"; };
+		FB6D43592BEFB5E400504281 /* RestaurantData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantData.swift; sourceTree = "<group>"; };
+		FB6D435B2BEFB60700504281 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,9 @@
 				0BD136982BEFAB96005E2746 /* SeatReservationApp.swift */,
 				0BD136CC2BEFACE1005E2746 /* PersonalView.swift */,
 				0BD136C42BEFAC8C005E2746 /* InformationView.swift */,
+				FB6D435B2BEFB60700504281 /* SearchBar.swift */,
+				FB6D43572BEFB5D200504281 /* ListBookingView.swift */,
+				FB6D43592BEFB5E400504281 /* RestaurantData.swift */,
 				0BD136D02BEFACF3005E2746 /* SeatReservationDB.swift */,
 				0BD1369A2BEFAB96005E2746 /* ContentView.swift */,
 				0BD1369C2BEFAB96005E2746 /* Item.swift */,
@@ -280,11 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB6D43582BEFB5D300504281 /* ListBookingView.swift in Sources */,
 				0BD136CD2BEFACE1005E2746 /* PersonalView.swift in Sources */,
 				0BD1369B2BEFAB96005E2746 /* ContentView.swift in Sources */,
 				0BD136D12BEFACF3005E2746 /* SeatReservationDB.swift in Sources */,
 				0BD136C52BEFAC8C005E2746 /* InformationView.swift in Sources */,
+				FB6D435A2BEFB5E400504281 /* RestaurantData.swift in Sources */,
 				0BD136C92BEFACA4005E2746 /* ReservationView.swift in Sources */,
+				FB6D435C2BEFB60700504281 /* SearchBar.swift in Sources */,
 				0BD1369D2BEFAB96005E2746 /* Item.swift in Sources */,
 				0BD136992BEFAB96005E2746 /* SeatReservationApp.swift in Sources */,
 			);
