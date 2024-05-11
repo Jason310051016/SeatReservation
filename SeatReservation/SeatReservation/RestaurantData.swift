@@ -1,0 +1,17 @@
+//
+//  RestaurantData.swift
+//  SeatReservation
+//
+//  Created by student on 10/5/2024.
+//
+
+import Foundation
+
+class RestaurantData {
+    var mytitle: [String] = ["QUAY","AFRICOLA","MAGILL ESTATE","RICK SHORES","DETOUR","DIER MAKR"]
+    var detailDescription: [String] = ["With sweeping views of the Sydney Opera House and Harbour Bridge from its elevated harbourside perch, Quay is a feast for your eyes and your tastebuds. Many local farmers, producers and artisans cultivate produce exclusively for executive chef Peter Gilmore’s innovative nature-inspired cuisine, which has been picking up top awards for nearly 20 years.","Diverse African flavours meet Australian produce at Africola – a central Adelaide restaurant where the bold dishes match the décor. If you love spice, you’ll lap up the flavour-bombs delivered by the likes of the zingy peri-peri sauce made by South African-born head chef Duncan Welgemoed’s mother, and the zhoug, a piquant Yemeni herb dressing. ","Nestled in the Adelaide Hills, a 15-minute drive east of South Australia’s capital, is Penfolds Magill Estate Restaurant, a heritage-listed winery and award-winning restaurant. Great care is taken to pair the seasonal dishes (served as part of three- and seven-course menus) with wine from the restaurant’s cellar, which holds a collection of Penfolds wines dating back to 1951. ","The ocean is so close you can almost touch it at Rick Shores. It’s no wonder, then, that the seafood (with a pan-Asian twist) is so fresh at this casual fine-diner in the hip Gold Coast suburb of Burleigh Heads. Dishes here are best shared over a crisp glass of wine from Rick Shores’ ever-changing, award-winning drinks list as you watch surfers carve up the waves outside through the floor-to-ceiling windows. ","The menu at Detour, in the south Brisbane suburb of Woolloongabba, is perfect for sharing with friends with differing dietary requirements, as half the dishes on the menu are plant-based and all are gluten-free. This is an innovative restaurant where the emphasis is on local, seasonal and sustainable produce. This carries through to the wine list which showcases small, biodynamic and organic Australian producers. ","Using a collection of hot plates and small portable grills, chefs at cosy Dier Makr in central Hobart create exceptional, low-intervention dishes centred around seasonal Australian ingredients, such as beetroot and barramundi. The degustation menu is the ideal way to sample your way through the menu of small but perfectly balanced dishes.","Most people are familiar with the concept of eating seasonally, but Wildflower in central Perth’s historic heart doesn’t just follow the four seasons, but the six seasons of the local Indigenous Noongar calendar. Djeran (April-May) is the time for fish, seeds and bulbs, whereas Kambarang (October-November) sees yams and gilgie (freshwater crayfish) appear on the menu. With stunning views across the Swan River and the city from its setting in the rooftop space of boutique hotel COMO The Treasury, Wildflower is the ultimate spot for a long lunch."]
+    var address:[String] = ["Upper Level Overseas Passenger Terminal, The Rocks","4 East Terrace, Adelaide","78 Penfold Rd, Adelaide","3/43 Goodwin Terrace, Burleigh Heads","11 Logan Rd, Woolloongabba","123 Collins St, Hobart"," Level 4, 1 Cathedral Ave, Perth"]
+    var image:[String] = ["image0","image1","image2","image3","image4","image5"]
+    var popularity: [Int] = [5,4,2,4,3,1]
+    
+}
